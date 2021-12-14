@@ -1,5 +1,7 @@
 package ec.edu.ups.prueba.model;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -7,7 +9,11 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "TBL_Vehiculo")
-public class Vehiculo {
+public class Vehiculo implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Id
 	@Column(name = "veh_placa")
 	private String placa;
