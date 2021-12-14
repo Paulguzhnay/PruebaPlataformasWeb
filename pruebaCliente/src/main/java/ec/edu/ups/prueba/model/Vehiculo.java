@@ -36,6 +36,11 @@ public class Vehiculo implements Serializable {
 	public void setNumeroPuertas(int numeroPuertas) {
 		this.numeroPuertas = numeroPuertas;
 	}
+	@Override
+	public String toString() {
+		return "Vehiculo [placa=" + placa + ", marca=" + marca + ", modelo=" + modelo + ", numeroPuertas="
+				+ numeroPuertas + "]";
+	}
 	
 	
 	

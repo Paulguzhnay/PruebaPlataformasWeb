@@ -15,6 +15,7 @@ public class vehiculoDAO {
 	@PersistenceContext
 	private EntityManager em;
 	public void insert(Vehiculo op) {
+		System.out.println(op);
 		em.persist(op);
 	}
 	

@@ -27,4 +27,7 @@ public class VehiculoON implements VehiculoONRemote {
 		return daoVehiculo.read(placa);
 	}
 	
+	public void update (Vehiculo p) {
+		daoVehiculo.update(p);
+	}
 }

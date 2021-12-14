@@ -23,6 +23,9 @@ public class Vehiculo implements Serializable {
 	private String modelo;
 	@Column(name = "veh_numPuertas")
 	private int numeroPuertas;
+	
+	
+	
 	public String getPlaca() {
 		return placa;
 	}

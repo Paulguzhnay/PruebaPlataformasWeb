@@ -14,5 +14,6 @@ public interface VehiculoONRemote {
 	public List <Vehiculo> getVehiculos();
 	
 	public Vehiculo obtenerDatosCliente(String placa) ;
+	public void update (Vehiculo p);
 	
 }
